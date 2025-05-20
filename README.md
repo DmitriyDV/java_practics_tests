@@ -1,1 +1,0 @@
-# java_practics_tests
