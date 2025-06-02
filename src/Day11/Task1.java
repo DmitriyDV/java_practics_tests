@@ -1,4 +1,5 @@
 package Day11;
+
 /*
 *На складе происходит сборка и упаковка интернет-заказа. Создайте классы:
 - “Склад” (англ. Warehouse). Поля: countOrder (количество собранных заказов),
@@ -42,7 +43,7 @@ public class Task1 {
         System.out.println(courier);
         System.out.println(picker);
 
-        for (int i =1; i<=1500;i++){
+        for (int i = 1; i <= 1500; i++) {
             picker.doWork();
             courier.doWork();
         }
@@ -52,30 +53,5 @@ public class Task1 {
         System.out.println(warehouse);
         System.out.println(courier);
         System.out.println(picker);
-//        courier.doWork();
-//        courier.doWork();
-//        courier.doWork();
-//        courier.bonus();
-//
-//        picker.doWork();
-//        picker.doWork();
-//        picker.doWork();
-//        picker.doWork();
-//        picker.bonus();
-//
-//
-//        System.out.println(warehouse);
-//        picker.getSalary();
-//        courier.getSalary();
-//
-//        Warehouse warehouse1 = new Warehouse();
-//        Courier courier1 = new Courier();
-//        Picker picker1 = new Picker();
-//        courier1.doWork();
-//        picker1.doWork();
-//
-//        System.out.println(warehouse);
-//        picker.getSalary();
-//        courier.getSalary();
     }
 }
